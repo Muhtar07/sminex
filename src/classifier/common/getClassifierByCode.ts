@@ -2,6 +2,7 @@ import { Level1 } from '../level_1/entities/level_1.entity';
 
 export const getClassifierByCode = (level1: Level1[], code: string) => {
   const result = [];
+
   level1.map((level) => {
     if (level.code === code) {
       result.push(level);
